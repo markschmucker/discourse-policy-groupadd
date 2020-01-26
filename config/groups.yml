@@ -1,0 +1,8 @@
+---
+
+- source_group: QualifiedInvestors
+  target_group: PremiumQualifiedInvestors
+  policy_id: 123456
+- source_group: AnotherGroup
+- target_group: AnotherPremiumGroup
+  policy_id: 999
