@@ -5,6 +5,7 @@ module Jobs
     every 15.minutes
   
     def execute(_args)
+      return unless SiteSetting.policy_groupadd_enabled
 
       configs = YAML.safe_load(
         File.read(
