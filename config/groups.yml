@@ -2,7 +2,7 @@
 
 - source_group: QualifiedPurchasers
   target_group: PremiumQualifiedPurchasers
-  policy_id: 60252
-- source_group: AnotherGroup
-  target_group: AnotherPremiumGroup
-  policy_id: 999
+  policy_id: 6
+- source_group: trust_level_0
+  target_group: PremiumGroup
+  policy_id: 6
