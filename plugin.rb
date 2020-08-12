@@ -4,7 +4,7 @@
 # about: add people who accepted a policy to a certain group in a quick and dirty manner
 # version: 1.0
 # authors: richard@discoursehosting.com
-# url: https://github.com/discoursehosting/discourse-policy-groupadd
+# url: https://github.com/markschmucker/discourse-policy-groupadd
 
 enabled_site_setting :policy_groupadd_enabled
 
