@@ -6,3 +6,6 @@
 - source_group: trust_level_0
   target_group: PremiumGroup
   policy_id: 6
+- source_group: trust_level_0
+  target_group: tos-acceptors
+  policy_id: 7
