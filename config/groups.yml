@@ -1,10 +1,10 @@
 ---
 
 - source_group: QualifiedPurchasers
-  target_group: PremiumQualifiedPurchasers
+  target_group: ProtectedQualifiedPurchasers
   policy_id: 6
 - source_group: trust_level_0
-  target_group: PremiumGroup
+  target_group: ProtectedGroup
   policy_id: 6
 - source_group: trust_level_0
   target_group: tos-acceptors
