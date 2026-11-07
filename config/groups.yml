@@ -1,11 +1,9 @@
 ---
 
-- source_group: QualifiedPurchasers
-  target_group: ProtectedQualifiedPurchasers
-  policy_id: 6
-- source_group: trust_level_0
-  target_group: ProtectedGroup
-  policy_id: 6
+# ProtectedGroup and ProtectedQualifiedPurchasers are no longer managed here.
+# As of 2026-11-07 the 506 app owns them (self-certifications sync + daily
+# assert pass); the Anti-Pestering policy topic is retired. This plugin's
+# full-sync removals were silently stripping app-granted memberships.
 - source_group: trust_level_0
   target_group: tos-acceptors
   policy_id: 8
